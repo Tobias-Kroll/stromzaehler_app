@@ -1,1 +1,10 @@
-Nächste Schritte (To-Do)
+= Todo-Liste
+
+== M0 - Setup
+* [x] - Flutterprojekt anlegen und mit Github verbinden.
+* [x] - Ordnerstruktur anlegen
+* [x] - USB-Debuggin aktivieren
+* [  ] - Fortschrittsdokumentation
+
+== M1 - Projektverständnis
+*
