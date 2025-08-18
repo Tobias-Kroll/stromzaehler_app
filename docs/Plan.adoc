@@ -7,7 +7,7 @@
 
 == M1 - Projektverständnis
 
-* [] - Readme erstellen 
+* [x] - Readme erstellen 
 * [] - Arichtecture erstellen
 * [] - Vision erstellen 
 * [] - Spickzettel erstellen 

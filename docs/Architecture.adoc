@@ -1,0 +1,36 @@
+= Architecture Notebook: Stromzähler App
+:toc:
+
+== Zweck
+Dieses Dokument beschreibt Ziele, Annahmen, Architekturentscheidungen sowie Sichten der Stromzähler App.
+Die App soll es ermöglcihen Messwerte schnell zu erfassen – **ohne Backend** – mit validierten, steigenden Werten und Verlauf/Visualisierung.
+
+== Architekturziele
+* Offline: App ist vollständig ohne Internet nutzbar.
+* Einfache, schnelle Eingabe (wenige Taps, sofortiges Feedback).
+* Multi-Plattform: Android/Web (optional iOs).
+* Datenschutz: Daten verbleiben lokal auf dem Gerät.
+
+== Annahmen und Abhängigkeiten
+* Kein bestehendes System, Neuentwicklung.
+* Kleinere Nutzerbasis; Skalierung vorerst kein Ziel.
+* Kein Server/Backend erforderlich (Daten nur lokal).
+* Flutter/Dart als Technologie-Stack.
+
+== Architektur-relevante Anforderungen
+* Eingabe Messwerte
+* Liste/Verlauf, optional Export (CSV) später.
+* Lokale Persistenz:
+
+== Entscheidungen, Nebenbedingungen und Begründungen
+* Flutter/Dart wegen Cross-Platform und schneller UI-Entwicklung.
+* Persistenz lokal:
+
+== Schichten/Architektur
+* Präsentation (UI): Flutter Widgets (Screens, Forms, Charts)
+
+== Risiken
+
+* Datenverlust bei App-Deinstallation (ohne Export/Backup).
+* Geräterechtswechsel/Migration ohne Sync eingeschränkt.
+* Validierungsfehler können historische Korrekturen erschweren.
