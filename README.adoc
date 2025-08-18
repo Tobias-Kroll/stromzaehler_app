@@ -3,6 +3,12 @@
 Mit der Stromzählerapp möchte ich Verbrauchern die Möglichkeit geben, eine bessere Übersicht über Ihre kosten und verbräuche zu erhalten. Meine Intention dabei ist es, das der Nutzer nicht mehr selber seine Verbrauchskosten berechnen muss.
 
 == Inhaltsverzeichnis 
+<<Projektinstallation>>
+<<Verwendung >>
+<<Fehlerbehebung >>
+<<Erkenntnisse>>
+<<Lizenz>>
+<<Kontaktinformationen >>
 
 == Projektinstallation 
 === Android 
@@ -13,7 +19,7 @@ Mit der Stromzählerapp möchte ich Verbrauchern die Möglichkeit geben, eine be
 - noch nicht verfügbar 
 
 == Verwendung 
-
+grundlegenden Befehle mit Beispielen
 == Fehlerbehebung 
 
 == Erkenntnisse 
@@ -21,3 +27,4 @@ Mit der Stromzählerapp möchte ich Verbrauchern die Möglichkeit geben, eine be
 == Lizenz
 
 == Kontaktinformationen 
+Email: Tobias_Kroll.1@web.de 
