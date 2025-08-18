@@ -7,4 +7,4 @@
 * [  ] - Fortschrittsdokumentation
 
 == M1 - Projektverständnis
-*
+* []Readme einrichten

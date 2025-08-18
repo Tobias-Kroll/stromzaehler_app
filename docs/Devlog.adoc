@@ -1,4 +1,4 @@
 # Dokumentation des Projektes:
 
 == M0 - Setup
-* vor dem Projektstart Einarbeitung in Flutter/Dart
+* vor dem Projektstart Einarbeitung in Flutter/Dart.
