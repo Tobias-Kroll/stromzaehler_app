@@ -4,7 +4,11 @@
 * [x] - Flutterprojekt anlegen und mit Github verbinden.
 * [x] - Ordnerstruktur anlegen
 * [x] - USB-Debuggin aktivieren
-* [  ] - Fortschrittsdokumentation
 
 == M1 - Projektverständnis
-* []Readme einrichten
+
+* [] - Readme erstellen 
+* [] - Arichtecture erstellen
+* [] - Vision erstellen 
+* [] - Spickzettel erstellen 
+* [] - Fortschrittsdokumentation 
