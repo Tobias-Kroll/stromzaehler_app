@@ -3,8 +3,6 @@
 :kroki-server-url: https://kroki.io
 :kroki-default-format: svg
 
-
-
 = Flutter Spickzettel (Stromzählerapp)
 :toc:
 :icons: font
