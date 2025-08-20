@@ -205,8 +205,66 @@ Padding(                         // Single-Child
 );
 ----
 
+== 5 Farben & Themen 
+=== Farben:
+* Um eine bestimmte Darbe aus einem Farbfeld auszuwählen, geben Sie ein Index in das Farbeld ein und verwenden sie eine Ganzzahl für die gwünschte Farbe:
+Farbpaletten : https://api.flutter.dev/flutter/material/Colors-class.html
+[source,dart]
+----
+Color selection = Colors.green[400]!; // Selects a mid-range green.
+----
+* Farben können aber auch direkt verwendet werden.
+[source,dart]
+----
+Container(
+  color: Colors.blue, // same as Colors.blue[500] or Colors.blue.shade500
+)
+----
 
-== 5) Navigation (Seiten wischen)
+// Noch ausfüllen
+
+== const & final
+=== Kurzvergleich
+
+[%header,cols="1,2,2,3"]
+|===
+| Wort | Wann fest? | Darf sich ändern? | Typische Verwendung
+
+| +const+
+| Compile-Time
+| nein (tief immutable)
+| feste Widgets/Styles, +EdgeInsets+, +Color+, +Duration+, Text
+
+| +final+
+| Runtime (beim ersten Setzen)
+| nein
+| Werte, die erst zur Laufzeit bekannt sind (API-Antwort, +Theme+, +MediaQuery+)
+|===
+
+* const vor Widget Konstruktoren wenn sich deren Inhalt nicht ändert.
+[source,dart]
+----
+const kGap8 = SizedBox(height: 8);
+const kScreenPadding = EdgeInsets.all(16);
+const kBrand = Color(0xFF0B7A75);
+----
+
+* In Widgets: Props sind final, weil sie nach Konstruktion nicht mehr wechseln.
+[source,dart]
+----
+class ReadingTile extends StatelessWidget {
+  final double value;                // einmal gesetzt
+  const ReadingTile({super.key, required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(title: Text('${value.toStringAsFixed(2)} kWh'));
+  }
+}
+
+----
+
+== 5.1) Navigation (Seiten wischen)
 * `PageView` + `PageController`
 [source,dart]
 ----
@@ -214,7 +272,7 @@ final controller = PageController(initialPage: 0);
 PageView(controller: controller, children: const [DetailPage(...), DetailPage(...)] )
 ----
 
-== 6) State & Lifecycle
+== 6.1) State & Lifecycle
 * `initState()` *nicht* `async` machen. Async-Arbeit in Helper auslagern.
 * Nach `await` ggf. `if (!mounted) return;` vor `setState`.
 [source,dart]
