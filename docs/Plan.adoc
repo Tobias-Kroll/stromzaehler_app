@@ -8,7 +8,9 @@
 == M1 - Projektverständnis
 
 * [x] - Readme erstellen 
-* [] - Arichtecture erstellen
-* [] - Vision erstellen 
-* [] - Spickzettel erstellen 
+* [x] - Arichtecture erstellen
+* [x] - Vision erstellen
+* [x] - Spickzettel erstellen
+* [] - Debug Handy erstellen
+* [] - Debug Webseite erstellen
 * [] - Fortschrittsdokumentation 
