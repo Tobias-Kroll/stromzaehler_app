@@ -1,0 +1,11 @@
+= Designübersicht
+
+== Homedesign Vorlage
+image::images/Design_home.jpg[width=500]
+
+- Zeitraum: ändern zu Turnuszeitraum
+- Verbrauch: ändern zu Verbraucht 
+- Kosten: ~45 €
+- Tagesdurchschnitt : ändern zu Monatsdurchschnitt eventuell mit Auswahl.
+
+
