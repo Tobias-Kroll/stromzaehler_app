@@ -20,7 +20,7 @@
 * [x] - grobes Design entwickeln
 * [x] - assets/images anlegen
 * [x] - docs/images anlegen
-* []  - design.adoc anlegen und bearbeiten
+* [x]  - design.adoc anlegen und bearbeiten
 * [x] - eigene Flutter Projekt Struktur anlegen
 * [] - Header einfügen
 * [] - Background erstellen
