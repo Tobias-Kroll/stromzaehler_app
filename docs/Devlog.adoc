@@ -1,3 +1,10 @@
 = Dokumentation des Projektes:
 
-== M1 
+== M1 Projektverständnis
+Die von mir angelegten .adoc Dateien waren für mich nicht schwer zu bearbeiten,
+da ich durch das Unimodell Softwareengeeniering schon Vorerfahrung habe. Des weiteren
+findet man auch viele gute Informationen und Grundlagen im Internet.
+Eine größere Herausforderung war es die Spickzettel Datei zubearbeiten.
+Hierfür musste ich mich durch die Grundlagen von Flutter durcharbeiten, was eine längere
+Zeit in anspruch genommen hat. Jedoch erklären die Flutter entwickler auf ihrer Seite alles
+sehr gut und ich konnte mich mehr und mehr mit Flutter vertraut machen.

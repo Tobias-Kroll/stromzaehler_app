@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       body:  Container(
-            color: Colors.blue, // same as Colors.blue[500] or Colors.blue.shade500
+            color: Colors.yellow, // same as Colors.blue[500] or Colors.blue.shade500
           ),
 
       );

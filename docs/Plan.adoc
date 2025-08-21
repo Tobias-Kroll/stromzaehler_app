@@ -11,6 +11,14 @@
 * [x] - Arichtecture erstellen
 * [x] - Vision erstellen
 * [x] - Spickzettel erstellen
-* [] - Debug Handy erstellen
-* [] - Debug Webseite erstellen
-* [] - Fortschrittsdokumentation 
+* [x] - Debug Handy erstellen
+* [x] - Debug Webseite erstellen
+* [x] - Fortschrittsdokumentation
+
+== M2 - Projektstart
+* [x] - entfernen der Flutter vorgaben
+* [x] - grobes Design entwickeln
+* [x] - assets/images anlegen
+* [x] - eigene Flutter Projekt Struktur anlegen
+* [] - Header einfügen
+* [] - Background erstellen
