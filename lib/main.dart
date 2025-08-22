@@ -20,11 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //theme: ThemeData(
-        //colorScheme: ColorScheme.fromSeed(seedColor: Colors.white,
-          //brightness: Brightness.light,
-        //)
-      //),
+      debugShowCheckedModeBanner: false,
       home : const MyHomePage(),
     );
   }
@@ -50,58 +46,72 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
+//-------------------------------------
+//  4.1) feste Dekoration
       decoration: const BoxDecoration(
         image: DecorationImage(
           image: AssetImage('assets/images/Background.png'),
           fit: BoxFit.cover,
         ),
       ),
+//-------------------------------------
 
       child: Scaffold(
         backgroundColor: Colors.transparent,
+
+//-------------------------------------
+//  4.2) Scaffold Appbar
         appBar: AppBar(
           centerTitle: true,
           backgroundColor: Colors.transparent,
           elevation: 0,
           toolbarHeight: 200,
-            title: Column(
-              mainAxisSize: MainAxisSize.min, // nicht die ganze Höhe füllen
-              children: [
 
+//-----------------------------------------------
+//    4.2.1) Spalte in Appbar
+          title: Column(
+              mainAxisSize: MainAxisSize.min, // nicht die ganze Höhe füllen
+
+            children: [
+//---------------------------------------------------
+//    4.2.1.1) Children Bild -> in Appbar Column
                Image.asset(
                       'assets/images/AppBarImage.png',
-                      height: 100, // kleiner als 100, passt besser in die AppBar
-                      width: 100,
-
+                      height: 105,
+                      width: 105,
                ),
-                SizedBox(height: 10),
+                SizedBox(height: 5),
+//---------------------
+//    4.2.1.2) Children Text -> in Appbar
                 const Text('Stromzähler',
-                            style: TextStyle(fontSize: 25,
+                            style: TextStyle(fontSize: 30,
                                              fontWeight: FontWeight.bold,
                                              color: Color(0xFF546E7A),
                                   ),
-
                 ),
-
               ],
             ),
-
+//-----------------------------------------------------
         ),
+//-----------------------------------------------------
+//----------------------------------------------------
+//   4.3) Scaffold body
         body: Center(
-
-
-            child: Container(
+//----------------------------------------------------
+//   4.3.1) gesamter Body Container
+          child: Container(
               width: double.infinity, // volle Breite
               height: double.infinity, // volle Höhe
               color: Colors.transparent,
               margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
-
+//----------------------------------------------------
+//    4.3.1.1 genutze Spalte im Body Conatiner
               child: Column(
-
                 children: [
+//-----------------------------------------------------
+//    4.3.1.1.1 erstes Children in Spalte der genutzen Spalte im Conatiner
                   Expanded(
                   child: Container(
-
                     margin: EdgeInsets.only(top: 20, left: 20, right: 20),
                 decoration:  BoxDecoration(
                   color: Colors.transparent,
@@ -114,8 +124,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     topLeft: Radius.circular(10),
                     topRight: Radius.circular(10),
                   ),
-
-
                   boxShadow: [
                     BoxShadow(
                         color: Colors.white,
@@ -127,11 +135,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                   ),
                   ),
-
+//-----------------------------------------------------
+//     4.3.1.1.2 zweites Children in Spalte der genutzen Spalte im Conatiner
                   Expanded(
                   child: Container(
                     margin: EdgeInsets.only(bottom: 40, left: 20, right: 20),
-
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border(
@@ -148,28 +156,32 @@ class _MyHomePageState extends State<MyHomePage> {
                         BoxShadow(
                             color: Colors.transparent,
                             spreadRadius: 3,
-                            blurRadius: 5,       // optional: macht die Kante weicher
-                            offset: Offset(0, 3) // optional: verschiebt den Schatten
+                            blurRadius: 5,
+                            offset: Offset(0, 3)
                         ),
                       ],
                     ),
                   ),
                   ),
-
                 ],
-              ),// same as Colors.blue[500] or Colors.blue.shade500
+              ),
             ),
-
         ),
-
-        // <-- echter Footer
+//--------------------------------------------------------
+//  4.4) Footer
         bottomNavigationBar: Container(
           height: 56,
           color: Colors.transparent,
           alignment: Alignment.center,
           child: const Text('Footer', style: TextStyle(color: Colors.black)),
         ),
-
-      ), );
+      ),
+    );
   }
+//---------------------------------------------------------
+// 4.5) Möglichkeit für Actionbar
+//
+//
+//----------------------------------------------------------
 }
+//----------------------------------------------------------

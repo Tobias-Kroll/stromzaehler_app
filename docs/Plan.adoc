@@ -24,3 +24,6 @@
 * [x] - eigene Flutter Projekt Struktur anlegen
 * [] - Header einfügen
 * [] - Background erstellen
+* [] - Body einfügen
+* [] - Footer einfügen
+* [] - Fortschrittsdokumentation
