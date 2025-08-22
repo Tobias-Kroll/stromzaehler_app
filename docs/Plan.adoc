@@ -22,8 +22,8 @@
 * [x] - docs/images anlegen
 * [x]  - design.adoc anlegen und bearbeiten
 * [x] - eigene Flutter Projekt Struktur anlegen
-* [] - Header einfügen
-* [] - Background erstellen
-* [] - Body einfügen
-* [] - Footer einfügen
-* [] - Fortschrittsdokumentation
+* [x] - Header einfügen
+* [x] - Background erstellen
+* [x] - Body einfügen
+* [x] - Footer einfügen
+* [x] - Fortschrittsdokumentation

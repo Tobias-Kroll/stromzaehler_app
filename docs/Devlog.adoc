@@ -8,3 +8,13 @@ Eine größere Herausforderung war es die Spickzettel Datei zubearbeiten.
 Hierfür musste ich mich durch die Grundlagen von Flutter durcharbeiten, was eine längere
 Zeit in anspruch genommen hat. Jedoch erklären die Flutter entwickler auf ihrer Seite alles
 sehr gut und ich konnte mich mehr und mehr mit Flutter vertraut machen.
+
+
+== M2 - Projektstart
+Der start in das Projekt viel mir mittelmäßig schwer. Ich finde das sich der Syntax von flutter/dart
+von den mir bekannten Programmiersprachen unterscheidet. Weswegen es mir anfangs schwer viel einen
+Überblick zu erhalten. Allerdings wenn man sich durcharbeitet, findet man immer mehr und mehr
+Anschluss und erkennt sich wiederholende Muster.
+Daher kam ich schnell in die Design arbeit rein und konnte das Grundlayout gut erstellen.
+
+
