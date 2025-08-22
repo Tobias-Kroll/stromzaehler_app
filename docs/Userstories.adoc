@@ -1,0 +1,17 @@
+= Usersrorys
+
+Mit diesem Dokument möchte ich User Stories aus Nutzersicht festlegen.
+Sie dienen dazu, Anforderungen aus Nutzersicht zu formulieren und daraus Taks abzuleiten.
+
+== M3 - Erste Inhalte (Home Seite)
+* Als Nutzer möchte ich eine simple Beispiel-Übersicht erhalten, damit ich sehen kann, wie meine
+Kosten und Verbräuche später dargestellt werden.
+
+* Als Verbraucher möchte ich sehen, wie viel Zeit mir noch bis zum Ende eines Beispiel-Turnus
+bleibt, damit ich ein besseres Zeitgefühl für meine Turnusablesung bekomme.
+
+* Als Nutzer möchte ich meinen Monatsdurchschnitt mit einem Beispielwert sehen,
+damit ich die ich geplante Darstellung erkennen knn.
+
+* Als Nutzer möchte ich ein Beispiel-Diagramm mit Verbrauchswerte sehen,
+damit ich eine visuelle Einschätzung meiner Verbäuche erhalte.

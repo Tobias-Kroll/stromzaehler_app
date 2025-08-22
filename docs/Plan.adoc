@@ -29,5 +29,25 @@
 * [x] - Fortschrittsdokumentation
 
 == M3 - Erste Inhalte
-* [] - Userstories erstellen
-* [] - Tasks ableiten:
+* [x] - Userstories erstellen
+* [x] - Tasks ableiten:
+
+=== User Story 1
+*[] Übersicht ins Layout implementieren
+*[] Verbrauchte Kosten in die Übersicht einbinden
+*[] Verbauchte kWh in die Überischt einbinden
+*[] Beispielwerte als Platzhalter einbauen
+
+=== User Story 2
+*[] Beispielzeitraum definieren
+*[] Restzeit (bis Beispiel-Turnusende) mit Beispielwert im Übersicht-Layout implementieren
+
+=== User Story 3
+*[] Monatsdurchschnitt (Beispielwert) im Übersicht-Layout anzeigen
+
+=== User Story 4
+*[] Diagramm-Widget erstellen
+*[] 1 Balken pro Monat (12 Balken für einen Turnus)
+*[] Achsen minimal Beschriften
+*[] Diagramm ins Layout einbinden
+
