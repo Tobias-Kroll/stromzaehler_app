@@ -27,3 +27,7 @@
 * [x] - Body einfügen
 * [x] - Footer einfügen
 * [x] - Fortschrittsdokumentation
+
+== M3 - Erste Inhalte
+* [] - Userstories erstellen
+* [] - Tasks ableiten:
