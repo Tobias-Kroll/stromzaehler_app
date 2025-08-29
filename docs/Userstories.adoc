@@ -15,3 +15,12 @@ damit ich die ich geplante Darstellung erkennen knn.
 
 * Als Nutzer möchte ich ein Beispiel-Diagramm mit Verbrauchswerte sehen,
 damit ich eine visuelle Einschätzung meiner Verbäuche erhalte.
+
+== M4 - Eingabe Seite
+* Als Nutzer möchte ich eine detallierte Seite auf der ich alle relevanten Daten, für meine Abrechnung sehen und verwalten kann.
+
+* Als Nutzer möchte ich meine Turnusdaten eingeben, damit darausfolgeende Berechnungen korrekt ausgeführt werden können.
+
+* Als Nutzer möchte ich meine Vertragsdaten erfassen, damit die App meine Kosten richtig ableiten kann.
+
+* Als Nutzer möchte ich meine Zählerstände eingeben und verwalten können. Damit mein Verbrauch dokumentiert und korrekt berechnet werden kann. 

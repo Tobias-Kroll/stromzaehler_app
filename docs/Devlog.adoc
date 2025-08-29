@@ -18,3 +18,12 @@ Anschluss und erkennt sich wiederholende Muster.
 Daher kam ich schnell in die Design arbeit rein und konnte das Grundlayout gut erstellen.
 
 
+== M3 - Erste Inhalte
+Mit den ersten Inhalten, des Projektes die vorallem Design teschniche implemntierungen hatten. Legte
+ich mein Fokus vorallem drauf die verschiedenen Container zu designen und zu gestalten. Zur Vereinfachung  
+legte ich mir erstmal nur Beispielwerte, die als Platzhalter dienen und meinen Fokus auf das Design zu legen.
+Anfangs war das Designen der Implementierungen ungewohnt, es unterscheidet sich schon von dem mir gewohnten css.
+Allerdings merkte ich schon das es mit flutter etwas moderner ist und nach einpaar Zeilen code merkte ich, das 
+sich einiges wiederholt und konnte mich gut an die neue Syntax gewöhnen.
+Das dartellen der Diagramme fiel mir überraschender Weise einfacher als Gedacht, ich habe auf youtube ein sehr 
+praktisches Tutorial gefunden, das mir sehr gut geholfen hat. 

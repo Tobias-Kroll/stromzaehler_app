@@ -50,5 +50,36 @@
 *[x] Achsen minimal Beschriften
 *[x] Diagramm ins Layout einbinden
 
+*[x] Fortschrittsdokumentation
+
+== M4 - Eingabe Seite
+*[x] - Userstories erstellen
+*[] - Tasks ableiten
+
+=== Userstory 1 
+*[] Action Button auf der Seite einbauen
+*[] Neue Seite (EingabenSeite) erstellen
+*[] Turnus/Vertrag/Zählerstände Container einbauen
+*[] Platzhalter einbauen
+*[] "Speichern" - button anzeigen
+
+=== Userstory 2 
+*[] Abschnitt Turnus designen
+*[] Formularfelder: Start, Ende, Abschlag pro Monat, Zählerstand bei start
+*[] Section Header "Turnus"
+*[] Kalender für Start und Ende einfügen
+*[] Sinnvolle Belegung der Monatlichen Abschläge 
+
+=== Userstory 3 
+*[] Abschnitt Vertragdetails designen
+*[] Eingabefelder : "Verbrauchspreis" & "Grundpreis" 
+*[] Einhiten hinter den Eingabefeldern 
+
+=== Userstory 4 
+*[] Abschnitt Zählerstände designen 
+*[] Hinzufügen - Button
+*[] Eingabefeld - Zählerstand 
+*[] Datum automatisch generien   
+
 *[] Fortschrittsdokumentation
 
